@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-data-science"
+version = "0.1.0"
+description = ""
+authors = ["Jacob Alford - MBP <jacob.alford@me.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7.6"
+returns = "^0.15.0"
+numpy = "^1.19.4"
+requests = "^2.25.0"
+matplotlib = "^3.3.3"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.30.0"
+mypy = "^0.790"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

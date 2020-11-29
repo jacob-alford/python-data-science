@@ -1,0 +1,24 @@
+{
+	"editor.formatOnSave": true,
+	"python.formatting.provider": "yapf",
+	"python.languageServer": "Pylance",
+	"python.analysis.typeCheckingMode": "strict",
+	"python.analysis.diagnosticSeverityOverrides": {
+		"reportUnusedImport": "warning",
+		"reportMissingTypeStubs": "warning",
+		"reportMissingTypeArgument": "error",
+		"reportUnnecessaryCast": "information",
+		"reportOptionalCall": "error",
+		"reportOptionalContextManager": "error",
+		"reportOptionalIterable": "error",
+		"reportOptionalMemberAccess": "error",
+		"reportOptionalOperand": "error",
+		"reportOptionalSubscript": "error"
+	},
+	"python.linting.enabled": true,
+	"python.linting.mypyEnabled": true,
+	"python.linting.mypyArgs": ["--config-file=${workspaceFolder}/setup.cfg"],
+	"python.linting.flake8Enabled": false,
+	"python.linting.pylintEnabled": false,
+	"python.pythonPath": "./.venv/bin/python3.7"
+}
